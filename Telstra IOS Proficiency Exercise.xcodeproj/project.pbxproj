@@ -13,6 +13,9 @@
 		E63A0E2E23CC8CC40031138A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E63A0E2C23CC8CC40031138A /* Main.storyboard */; };
 		E63A0E3023CC8CC50031138A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E63A0E2F23CC8CC50031138A /* Assets.xcassets */; };
 		E63A0E3323CC8CC50031138A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E63A0E3123CC8CC50031138A /* LaunchScreen.storyboard */; };
+		E63A0E4323CD75870031138A /* TelstraUtility.swift in Sources */ = {isa = PBXBuildFile; fileRef = E63A0E4223CD75870031138A /* TelstraUtility.swift */; };
+		E63A0E4523CD75D70031138A /* TelstraTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E63A0E4423CD75D70031138A /* TelstraTableViewController.swift */; };
+		E63A0E4723CD777D0031138A /* TelstraTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E63A0E4623CD777D0031138A /* TelstraTableViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +27,9 @@
 		E63A0E2F23CC8CC50031138A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E63A0E3223CC8CC50031138A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E63A0E3423CC8CC50031138A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E63A0E4223CD75870031138A /* TelstraUtility.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TelstraUtility.swift; sourceTree = "<group>"; };
+		E63A0E4423CD75D70031138A /* TelstraTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TelstraTableViewController.swift; sourceTree = "<group>"; };
+		E63A0E4623CD777D0031138A /* TelstraTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TelstraTableViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +65,9 @@
 				E63A0E2623CC8CC40031138A /* AppDelegate.swift */,
 				E63A0E2823CC8CC40031138A /* SceneDelegate.swift */,
 				E63A0E2A23CC8CC40031138A /* ViewController.swift */,
+				E63A0E4223CD75870031138A /* TelstraUtility.swift */,
+				E63A0E4423CD75D70031138A /* TelstraTableViewController.swift */,
+				E63A0E4623CD777D0031138A /* TelstraTableViewCell.swift */,
 				E63A0E2C23CC8CC40031138A /* Main.storyboard */,
 				E63A0E2F23CC8CC50031138A /* Assets.xcassets */,
 				E63A0E3123CC8CC50031138A /* LaunchScreen.storyboard */,
@@ -140,6 +149,9 @@
 			files = (
 				E63A0E2B23CC8CC40031138A /* ViewController.swift in Sources */,
 				E63A0E2723CC8CC40031138A /* AppDelegate.swift in Sources */,
+				E63A0E4523CD75D70031138A /* TelstraTableViewController.swift in Sources */,
+				E63A0E4723CD777D0031138A /* TelstraTableViewCell.swift in Sources */,
+				E63A0E4323CD75870031138A /* TelstraUtility.swift in Sources */,
 				E63A0E2923CC8CC40031138A /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
