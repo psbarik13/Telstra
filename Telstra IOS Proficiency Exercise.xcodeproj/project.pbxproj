@@ -16,6 +16,7 @@
 		E63A0E4323CD75870031138A /* TelstraUtility.swift in Sources */ = {isa = PBXBuildFile; fileRef = E63A0E4223CD75870031138A /* TelstraUtility.swift */; };
 		E63A0E4523CD75D70031138A /* TelstraTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E63A0E4423CD75D70031138A /* TelstraTableViewController.swift */; };
 		E63A0E4723CD777D0031138A /* TelstraTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E63A0E4623CD777D0031138A /* TelstraTableViewCell.swift */; };
+		E63A0E4923CD7BF50031138A /* TelstraImageDownloader.swift in Sources */ = {isa = PBXBuildFile; fileRef = E63A0E4823CD7BF50031138A /* TelstraImageDownloader.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,6 +31,7 @@
 		E63A0E4223CD75870031138A /* TelstraUtility.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TelstraUtility.swift; sourceTree = "<group>"; };
 		E63A0E4423CD75D70031138A /* TelstraTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TelstraTableViewController.swift; sourceTree = "<group>"; };
 		E63A0E4623CD777D0031138A /* TelstraTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TelstraTableViewCell.swift; sourceTree = "<group>"; };
+		E63A0E4823CD7BF50031138A /* TelstraImageDownloader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TelstraImageDownloader.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -67,6 +69,7 @@
 				E63A0E2A23CC8CC40031138A /* ViewController.swift */,
 				E63A0E4223CD75870031138A /* TelstraUtility.swift */,
 				E63A0E4423CD75D70031138A /* TelstraTableViewController.swift */,
+				E63A0E4823CD7BF50031138A /* TelstraImageDownloader.swift */,
 				E63A0E4623CD777D0031138A /* TelstraTableViewCell.swift */,
 				E63A0E2C23CC8CC40031138A /* Main.storyboard */,
 				E63A0E2F23CC8CC50031138A /* Assets.xcassets */,
@@ -148,6 +151,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				E63A0E2B23CC8CC40031138A /* ViewController.swift in Sources */,
+				E63A0E4923CD7BF50031138A /* TelstraImageDownloader.swift in Sources */,
 				E63A0E2723CC8CC40031138A /* AppDelegate.swift in Sources */,
 				E63A0E4523CD75D70031138A /* TelstraTableViewController.swift in Sources */,
 				E63A0E4723CD777D0031138A /* TelstraTableViewCell.swift in Sources */,
