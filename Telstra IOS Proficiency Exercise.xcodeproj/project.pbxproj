@@ -7,31 +7,29 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		E63A0E2723CC8CC40031138A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E63A0E2623CC8CC40031138A /* AppDelegate.swift */; };
-		E63A0E2923CC8CC40031138A /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E63A0E2823CC8CC40031138A /* SceneDelegate.swift */; };
-		E63A0E2B23CC8CC40031138A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E63A0E2A23CC8CC40031138A /* ViewController.swift */; };
-		E63A0E2E23CC8CC40031138A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E63A0E2C23CC8CC40031138A /* Main.storyboard */; };
+		35B6E38223CDB4D9001C0A65 /* TelstraImageDownloader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35B6E37923CDB4D9001C0A65 /* TelstraImageDownloader.swift */; };
+		35B6E38323CDB4D9001C0A65 /* TelstraTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35B6E37B23CDB4D9001C0A65 /* TelstraTableViewCell.swift */; };
+		35B6E38423CDB4D9001C0A65 /* TelstraTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35B6E37D23CDB4D9001C0A65 /* TelstraTableViewController.swift */; };
+		35B6E38523CDB4D9001C0A65 /* TelstraModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35B6E37F23CDB4D9001C0A65 /* TelstraModel.swift */; };
+		35B6E38623CDB4D9001C0A65 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35B6E38123CDB4D9001C0A65 /* AppDelegate.swift */; };
+		35B6E38923CDB551001C0A65 /* String.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35B6E38823CDB551001C0A65 /* String.swift */; };
+		35B6E38C23CDBD61001C0A65 /* TelstraManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35B6E38B23CDBD61001C0A65 /* TelstraManager.swift */; };
+		35B6E38E23CDBF60001C0A65 /* TelstraTableViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35B6E38D23CDBF60001C0A65 /* TelstraTableViewModel.swift */; };
 		E63A0E3023CC8CC50031138A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E63A0E2F23CC8CC50031138A /* Assets.xcassets */; };
-		E63A0E3323CC8CC50031138A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E63A0E3123CC8CC50031138A /* LaunchScreen.storyboard */; };
-		E63A0E4323CD75870031138A /* TelstraUtility.swift in Sources */ = {isa = PBXBuildFile; fileRef = E63A0E4223CD75870031138A /* TelstraUtility.swift */; };
-		E63A0E4523CD75D70031138A /* TelstraTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E63A0E4423CD75D70031138A /* TelstraTableViewController.swift */; };
-		E63A0E4723CD777D0031138A /* TelstraTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E63A0E4623CD777D0031138A /* TelstraTableViewCell.swift */; };
-		E63A0E4923CD7BF50031138A /* TelstraImageDownloader.swift in Sources */ = {isa = PBXBuildFile; fileRef = E63A0E4823CD7BF50031138A /* TelstraImageDownloader.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		35B6E37923CDB4D9001C0A65 /* TelstraImageDownloader.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TelstraImageDownloader.swift; sourceTree = "<group>"; };
+		35B6E37B23CDB4D9001C0A65 /* TelstraTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TelstraTableViewCell.swift; sourceTree = "<group>"; };
+		35B6E37D23CDB4D9001C0A65 /* TelstraTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TelstraTableViewController.swift; sourceTree = "<group>"; };
+		35B6E37F23CDB4D9001C0A65 /* TelstraModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TelstraModel.swift; sourceTree = "<group>"; };
+		35B6E38123CDB4D9001C0A65 /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		35B6E38823CDB551001C0A65 /* String.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = String.swift; sourceTree = "<group>"; };
+		35B6E38B23CDBD61001C0A65 /* TelstraManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TelstraManager.swift; sourceTree = "<group>"; };
+		35B6E38D23CDBF60001C0A65 /* TelstraTableViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TelstraTableViewModel.swift; sourceTree = "<group>"; };
 		E63A0E2323CC8CC40031138A /* Telstra IOS Proficiency Exercise.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Telstra IOS Proficiency Exercise.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		E63A0E2623CC8CC40031138A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		E63A0E2823CC8CC40031138A /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		E63A0E2A23CC8CC40031138A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		E63A0E2D23CC8CC40031138A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		E63A0E2F23CC8CC50031138A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		E63A0E3223CC8CC50031138A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E63A0E3423CC8CC50031138A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		E63A0E4223CD75870031138A /* TelstraUtility.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TelstraUtility.swift; sourceTree = "<group>"; };
-		E63A0E4423CD75D70031138A /* TelstraTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TelstraTableViewController.swift; sourceTree = "<group>"; };
-		E63A0E4623CD777D0031138A /* TelstraTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TelstraTableViewCell.swift; sourceTree = "<group>"; };
-		E63A0E4823CD7BF50031138A /* TelstraImageDownloader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TelstraImageDownloader.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -45,6 +43,63 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		35B6E37823CDB4D9001C0A65 /* Downloader */ = {
+			isa = PBXGroup;
+			children = (
+				35B6E37923CDB4D9001C0A65 /* TelstraImageDownloader.swift */,
+			);
+			path = Downloader;
+			sourceTree = "<group>";
+		};
+		35B6E37A23CDB4D9001C0A65 /* TableViewCell */ = {
+			isa = PBXGroup;
+			children = (
+				35B6E37B23CDB4D9001C0A65 /* TelstraTableViewCell.swift */,
+			);
+			path = TableViewCell;
+			sourceTree = "<group>";
+		};
+		35B6E37C23CDB4D9001C0A65 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				35B6E37D23CDB4D9001C0A65 /* TelstraTableViewController.swift */,
+				35B6E38D23CDBF60001C0A65 /* TelstraTableViewModel.swift */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		35B6E37E23CDB4D9001C0A65 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				35B6E37F23CDB4D9001C0A65 /* TelstraModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		35B6E38023CDB4D9001C0A65 /* Application */ = {
+			isa = PBXGroup;
+			children = (
+				35B6E38123CDB4D9001C0A65 /* AppDelegate.swift */,
+			);
+			path = Application;
+			sourceTree = "<group>";
+		};
+		35B6E38723CDB541001C0A65 /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				35B6E38823CDB551001C0A65 /* String.swift */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
+		35B6E38A23CDBD46001C0A65 /* Manager */ = {
+			isa = PBXGroup;
+			children = (
+				35B6E38B23CDBD61001C0A65 /* TelstraManager.swift */,
+			);
+			path = Manager;
+			sourceTree = "<group>";
+		};
 		E63A0E1A23CC8CC40031138A = {
 			isa = PBXGroup;
 			children = (
@@ -64,17 +119,15 @@
 		E63A0E2523CC8CC40031138A /* Telstra IOS Proficiency Exercise */ = {
 			isa = PBXGroup;
 			children = (
-				E63A0E2623CC8CC40031138A /* AppDelegate.swift */,
-				E63A0E2823CC8CC40031138A /* SceneDelegate.swift */,
-				E63A0E2A23CC8CC40031138A /* ViewController.swift */,
-				E63A0E4223CD75870031138A /* TelstraUtility.swift */,
-				E63A0E4423CD75D70031138A /* TelstraTableViewController.swift */,
-				E63A0E4823CD7BF50031138A /* TelstraImageDownloader.swift */,
-				E63A0E4623CD777D0031138A /* TelstraTableViewCell.swift */,
-				E63A0E2C23CC8CC40031138A /* Main.storyboard */,
+				35B6E38023CDB4D9001C0A65 /* Application */,
 				E63A0E2F23CC8CC50031138A /* Assets.xcassets */,
-				E63A0E3123CC8CC50031138A /* LaunchScreen.storyboard */,
+				35B6E37823CDB4D9001C0A65 /* Downloader */,
+				35B6E38723CDB541001C0A65 /* Extension */,
 				E63A0E3423CC8CC50031138A /* Info.plist */,
+				35B6E38A23CDBD46001C0A65 /* Manager */,
+				35B6E37E23CDB4D9001C0A65 /* Model */,
+				35B6E37A23CDB4D9001C0A65 /* TableViewCell */,
+				35B6E37C23CDB4D9001C0A65 /* ViewController */,
 			);
 			path = "Telstra IOS Proficiency Exercise";
 			sourceTree = "<group>";
@@ -137,9 +190,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E63A0E3323CC8CC50031138A /* LaunchScreen.storyboard in Resources */,
 				E63A0E3023CC8CC50031138A /* Assets.xcassets in Resources */,
-				E63A0E2E23CC8CC40031138A /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -150,36 +201,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E63A0E2B23CC8CC40031138A /* ViewController.swift in Sources */,
-				E63A0E4923CD7BF50031138A /* TelstraImageDownloader.swift in Sources */,
-				E63A0E2723CC8CC40031138A /* AppDelegate.swift in Sources */,
-				E63A0E4523CD75D70031138A /* TelstraTableViewController.swift in Sources */,
-				E63A0E4723CD777D0031138A /* TelstraTableViewCell.swift in Sources */,
-				E63A0E4323CD75870031138A /* TelstraUtility.swift in Sources */,
-				E63A0E2923CC8CC40031138A /* SceneDelegate.swift in Sources */,
+				35B6E38623CDB4D9001C0A65 /* AppDelegate.swift in Sources */,
+				35B6E38E23CDBF60001C0A65 /* TelstraTableViewModel.swift in Sources */,
+				35B6E38323CDB4D9001C0A65 /* TelstraTableViewCell.swift in Sources */,
+				35B6E38923CDB551001C0A65 /* String.swift in Sources */,
+				35B6E38223CDB4D9001C0A65 /* TelstraImageDownloader.swift in Sources */,
+				35B6E38423CDB4D9001C0A65 /* TelstraTableViewController.swift in Sources */,
+				35B6E38523CDB4D9001C0A65 /* TelstraModel.swift in Sources */,
+				35B6E38C23CDBD61001C0A65 /* TelstraManager.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXVariantGroup section */
-		E63A0E2C23CC8CC40031138A /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				E63A0E2D23CC8CC40031138A /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		E63A0E3123CC8CC50031138A /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				E63A0E3223CC8CC50031138A /* Base */,
-			);
-			name = LaunchScreen.storyboard;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		E63A0E3523CC8CC50031138A /* Debug */ = {
@@ -232,7 +265,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -286,7 +319,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -300,7 +333,8 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_STYLE = Automatic;
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = "Telstra IOS Proficiency Exercise/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -308,7 +342,8 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "com.partha.Telstra-IOS-Proficiency-Exercise";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 5.0;
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
@@ -317,7 +352,8 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_STYLE = Automatic;
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = "Telstra IOS Proficiency Exercise/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -325,7 +361,8 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "com.partha.Telstra-IOS-Proficiency-Exercise";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 5.0;
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
